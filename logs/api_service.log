@@ -133,3 +133,13 @@ Traceback (most recent call last):
     path('genres/', api_views.GenreList.as_view(), name='genre-list'),
                     ^^^^^^^^^^^^^^^^^^^
 AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-07 00:27:57,098 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-07 00:27:57,304 admin Models registered successfully in admin.
+INFO 2024-04-07 00:27:57,306 autoreload Watching for file changes with StatReloader
+INFO 2024-04-07 00:27:57,379 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-07 00:27:57,379 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
