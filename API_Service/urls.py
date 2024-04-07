@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include  # Include the 'include' function
+from API_Service import views as api_service_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('hello.urls')),  # Include the 'hello' app URLs
+    path('', api_service_views.home_view, name='home'),  # Updated to use home_view from API_Service
     path('api/', include('library.urls')),  # Include the library app API URLs
 ]

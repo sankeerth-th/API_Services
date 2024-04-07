@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  db: 
+    image: postgres:13
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: api_service_db
+      POSTGRES_USER: sanks04
+      POSTGRES_PASSWORD: NULL
+      POSTGRES_HOST_AUTH_METHOD: scram-sha-256
+
+  web:
+    build: .
+    command: gunicorn API_Service.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - .:/api_service
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://sanks04:yourpassword@db/api_service_db
+    restart: always
+
+volumes:
+  postgres_data:

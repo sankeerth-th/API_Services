@@ -1,7 +1,7 @@
 from rest_framework import generics, status, filters
 from rest_framework.response import Response
-from .models import Author, Book, Genre
-from .serializers import AuthorSerializer, BookSerializer, GenreSerializer
+from .models import Author, Book
+from .serializers import AuthorSerializer, BookSerializer
 from .throttles import ReadRateThrottle, WriteRateThrottle
 from .filters import BookFilter
 from django_filters.rest_framework import DjangoFilterBackend
@@ -101,48 +101,3 @@ class BookDetail(generics.RetrieveUpdateDestroyAPIView):
         except Exception as e:
             logger.error("Error deleting book: %s", e, exc_info=True)
             return Response({"error": "Error deleting book"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-class GenreList(generics.ListCreateAPIView):
-    queryset = Genre.objects.all()
-    serializer_class = GenreSerializer
-    throttle_classes = [ReadRateThrottle, WriteRateThrottle]
-
-    def get(self, request, *args, **kwargs):
-        try:
-            return super().get(request, *args, **kwargs)
-        except Exception as e:
-            logger.error("Error fetching genres: %s", e, exc_info=True)
-            return Response({"error": "Error fetching genres"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-    def post(self, request, *args, **kwargs):
-        try:
-            return super().post(request, *args, **kwargs)
-        except Exception as e:
-            logger.error("Error creating genre: %s", e, exc_info=True)
-            return Response({"error": "Error creating genre"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-class GenreDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Genre.objects.all()
-    serializer_class = GenreSerializer
-    throttle_classes = [ReadRateThrottle, WriteRateThrottle]
-
-    def get(self, request, *args, **kwargs):
-        try:
-            return super().get(request, *args, **kwargs)
-        except Exception as e:
-            logger.error("Error fetching genre detail: %s", e, exc_info=True)
-            return Response({"error": "Error fetching genre detail"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-    def put(self, request, *args, **kwargs):
-        try:
-            return super().put(request, *args, **kwargs)
-        except Exception as e:
-            logger.error("Error updating genre: %s", e, exc_info=True)
-            return Response({"error": "Error updating genre"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-    def delete(self, request, *args, **kwargs):
-        try:
-            return super().delete(request, *args, **kwargs)
-        except Exception as e:
-            logger.error("Error deleting genre: %s", e, exc_info=True)
-            return Response({"error": "Error deleting genre"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

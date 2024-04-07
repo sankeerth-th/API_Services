@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to the Book Library</h2>
+        <h3>Books</h3>
+        <ul>
+            {% for book in books %}
+                <li>{{ book.title }} by {{ book.author.name }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Authors</h3>
+        <ul>
+            {% for author in authors %}
+                <li>{{ author.name }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Titles</h3>
+        <ul>
+            {% for title in titles %}
+                <li>{{ title.title }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

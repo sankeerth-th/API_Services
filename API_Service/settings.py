@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'django_filters',
-    'library',  # Added the library app to the installed apps
+    'API_Service',
+    'library',  # Ensured 'library' app is correctly added to INSTALLED_APPS
 ]
 
 MIDDLEWARE = [
@@ -81,13 +82,15 @@ WSGI_APPLICATION = 'API_Service.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'api_service_db',
-        'USER': 'sanks04',
-        'PASSWORD': '',  # No password set
-        'HOST': 'localhost',  # Or '127.0.0.1'
-        'PORT': '5432',
+        'NAME': 'api_service_db',     # The name of your database
+        'USER': 'sanks04',            # Your PostgreSQL username
+        'PASSWORD': 'yourpassword',   # INPUT_REQUIRED {database_password}
+        'HOST': 'db',          # Set to 'localhost' for local development
+        'PORT': '5432',               # Default PostgreSQL port
     }
 }
+
+
 
 
 # Password validation
@@ -124,7 +127,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / "static",]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Added STATIC_ROOT setting
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

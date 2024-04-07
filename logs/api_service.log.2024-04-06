@@ -1,0 +1,443 @@
+INFO 2024-04-06 21:22:34,563 admin Models registered successfully in admin.
+INFO 2024-04-06 21:22:34,685 admin Models registered successfully in admin.
+INFO 2024-04-06 21:22:34,686 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:22:34,754 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:22:34,754 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:22:53,729 basehttp "GET /api/authors/ HTTP/1.1" 200 14147
+INFO 2024-04-06 21:22:56,061 basehttp "OPTIONS /api/authors/ HTTP/1.1" 200 14660
+INFO 2024-04-06 21:22:57,135 basehttp "OPTIONS /api/authors/ HTTP/1.1" 200 14660
+INFO 2024-04-06 21:22:58,816 basehttp "GET /api/authors/ HTTP/1.1" 200 14147
+INFO 2024-04-06 21:23:10,493 basehttp "GET /api/authors/ HTTP/1.1" 200 14147
+WARNING 2024-04-06 21:23:11,991 log Too Many Requests: /api/authors/
+WARNING 2024-04-06 21:23:11,991 basehttp "GET /api/authors/ HTTP/1.1" 429 13615
+INFO 2024-04-06 21:23:17,717 basehttp "GET / HTTP/1.1" 200 13
+WARNING 2024-04-06 21:23:21,128 log Too Many Requests: /api/books/
+WARNING 2024-04-06 21:23:21,128 basehttp "GET /api/books/?format=api HTTP/1.1" 429 14609
+WARNING 2024-04-06 21:23:25,460 log Too Many Requests: /api/authors/
+WARNING 2024-04-06 21:23:25,461 basehttp "GET /api/authors/?format=api HTTP/1.1" 429 13681
+INFO 2024-04-06 21:25:56,198 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 21:25:56,388 admin Models registered successfully in admin.
+INFO 2024-04-06 21:25:56,389 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:25:56,457 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:25:56,458 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:27:14,237 admin Models registered successfully in admin.
+INFO 2024-04-06 21:28:17,829 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 21:28:18,026 admin Models registered successfully in admin.
+INFO 2024-04-06 21:28:18,027 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:28:18,090 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:28:18,090 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:28:22,271 admin Models registered successfully in admin.
+INFO 2024-04-06 21:28:27,414 admin Models registered successfully in admin.
+INFO 2024-04-06 21:28:27,550 admin Models registered successfully in admin.
+INFO 2024-04-06 21:28:27,552 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:28:27,618 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:28:27,619 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:30:17,904 admin Models registered successfully in admin.
+INFO 2024-04-06 21:30:18,041 admin Models registered successfully in admin.
+INFO 2024-04-06 21:30:18,042 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:30:18,109 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:30:18,110 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:31:52,720 admin Models registered successfully in admin.
+INFO 2024-04-06 21:31:52,844 admin Models registered successfully in admin.
+INFO 2024-04-06 21:31:52,846 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:31:52,910 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:31:52,910 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:32:00,132 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 21:32:27,361 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 21:43:39,198 admin Models registered successfully in admin.
+INFO 2024-04-06 21:43:39,268 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:43:39,269 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:45:30,825 admin Models registered successfully in admin.
+INFO 2024-04-06 21:45:30,946 admin Models registered successfully in admin.
+INFO 2024-04-06 21:45:30,947 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:45:31,011 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:45:31,011 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:45:33,808 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 21:45:35,812 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 21:45:39,045 filters BookFilter initialized with filters for title, author, publication_year, and genre.
+INFO 2024-04-06 21:45:39,046 filters Book queryset filtered successfully.
+INFO 2024-04-06 21:45:39,119 filters BookFilter initialized with filters for title, author, publication_year, and genre.
+INFO 2024-04-06 21:45:39,135 basehttp "GET /api/books/?format=api HTTP/1.1" 200 18218
+INFO 2024-04-06 21:45:39,156 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,158 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,159 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,159 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,159 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,160 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,160 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,160 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,161 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,161 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,161 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,178 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-04-06 21:45:39,182 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+WARNING 2024-04-06 21:45:42,074 log Not Found: /api
+WARNING 2024-04-06 21:45:42,074 basehttp "GET /api HTTP/1.1" 404 2362
+INFO 2024-04-06 21:45:48,153 basehttp "GET /api/authors/?format=api HTTP/1.1" 200 14213
+INFO 2024-04-06 21:45:50,662 basehttp "GET /api/authors/?format=api HTTP/1.1" 200 14213
+INFO 2024-04-06 21:56:38,269 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 21:56:38,455 admin Models registered successfully in admin.
+INFO 2024-04-06 21:56:38,456 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:56:38,522 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:56:38,522 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:57:01,763 admin Models registered successfully in admin.
+INFO 2024-04-06 21:57:01,831 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:57:01,832 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:57:20,755 admin Models registered successfully in admin.
+INFO 2024-04-06 21:57:20,838 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:57:20,839 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:57:35,499 admin Models registered successfully in admin.
+INFO 2024-04-06 21:57:35,638 admin Models registered successfully in admin.
+INFO 2024-04-06 21:57:35,640 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:57:35,712 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:57:35,713 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:58:12,384 admin Models registered successfully in admin.
+INFO 2024-04-06 21:58:12,510 admin Models registered successfully in admin.
+INFO 2024-04-06 21:58:12,511 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 21:58:12,576 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 21:58:12,577 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 21:58:25,679 basehttp "GET / HTTP/1.1" 200 13
+WARNING 2024-04-06 22:02:40,970 log Not Found: /Api_Service
+WARNING 2024-04-06 22:02:40,970 basehttp "GET /Api_Service HTTP/1.1" 404 2386
+WARNING 2024-04-06 22:02:46,335 log Not Found: /API_Service
+WARNING 2024-04-06 22:02:46,335 basehttp "GET /API_Service HTTP/1.1" 404 2386
+INFO 2024-04-06 22:02:49,537 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 22:09:53,749 admin Models registered successfully in admin.
+INFO 2024-04-06 22:09:53,818 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 22:09:53,819 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 22:10:19,529 admin Models registered successfully in admin.
+INFO 2024-04-06 22:10:19,608 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 22:10:19,609 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 22:12:24,638 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/throttles.py changed, reloading.
+INFO 2024-04-06 22:12:25,257 admin Models registered successfully in admin.
+INFO 2024-04-06 22:12:25,258 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:12:25,326 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 22:12:25,328 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 22:12:38,587 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 22:12:39,627 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 22:18:12,233 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 22:18:13,297 basehttp "GET / HTTP/1.1" 200 13
+INFO 2024-04-06 22:18:43,085 admin Models registered successfully in admin.
+INFO 2024-04-06 22:18:43,210 admin Models registered successfully in admin.
+INFO 2024-04-06 22:18:43,212 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:19:37,280 admin Models registered successfully in admin.
+INFO 2024-04-06 22:19:37,404 admin Models registered successfully in admin.
+INFO 2024-04-06 22:19:37,405 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:19:37,473 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 22:19:37,474 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 22:19:40,874 basehttp "GET / HTTP/1.1" 200 13
+WARNING 2024-04-06 22:20:24,756 log Not Found: /API_Service/home.html
+WARNING 2024-04-06 22:20:24,757 basehttp "GET /API_Service/home.html HTTP/1.1" 404 2416
+INFO 2024-04-06 22:20:44,461 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/urls.py changed, reloading.
+INFO 2024-04-06 22:20:44,640 admin Models registered successfully in admin.
+INFO 2024-04-06 22:20:44,642 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:22:42,051 admin Models registered successfully in admin.
+INFO 2024-04-06 22:22:42,177 admin Models registered successfully in admin.
+INFO 2024-04-06 22:22:42,178 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:28:25,433 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:32:24,316 admin Models registered successfully in admin.
+INFO 2024-04-06 22:32:24,387 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 22:32:24,388 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 22:33:21,646 admin Models registered successfully in admin.
+INFO 2024-04-06 22:33:21,726 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+INFO 2024-04-06 22:33:21,727 urls URL patterns for library app successfully configured.
+INFO 2024-04-06 22:37:14,416 admin Models registered successfully in admin.
+INFO 2024-04-06 22:37:14,555 admin Models registered successfully in admin.
+INFO 2024-04-06 22:37:14,557 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:37:14,625 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 22:37:14,626 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 22:54:42,644 admin Models registered successfully in admin.
+INFO 2024-04-06 22:54:42,779 admin Models registered successfully in admin.
+INFO 2024-04-06 22:54:42,781 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:54:42,851 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 22:54:42,852 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 22:54:50,236 log Internal Server Error: /
+ERROR 2024-04-06 22:54:50,237 basehttp "GET / HTTP/1.1" 500 0
+INFO 2024-04-06 22:55:23,960 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 22:55:24,202 admin Models registered successfully in admin.
+INFO 2024-04-06 22:55:24,204 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 22:55:24,275 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 22:55:24,276 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 22:55:29,606 log Internal Server Error: /
+ERROR 2024-04-06 22:55:29,607 basehttp "GET / HTTP/1.1" 500 0
+ERROR 2024-04-06 22:55:31,762 log Internal Server Error: /
+ERROR 2024-04-06 22:55:31,762 basehttp "GET / HTTP/1.1" 500 0
+INFO 2024-04-06 23:06:37,318 admin Models registered successfully in admin.
+INFO 2024-04-06 23:06:37,442 admin Models registered successfully in admin.
+INFO 2024-04-06 23:06:37,443 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:06:37,569 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:06:37,570 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:06:42,826 log Internal Server Error: /
+ERROR 2024-04-06 23:06:42,827 basehttp "GET / HTTP/1.1" 500 0
+ERROR 2024-04-06 23:06:43,993 log Internal Server Error: /
+ERROR 2024-04-06 23:06:43,993 basehttp "GET / HTTP/1.1" 500 0
+INFO 2024-04-06 23:28:49,240 admin Models registered successfully in admin.
+INFO 2024-04-06 23:29:18,984 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:29:18,987 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:29:18,993 log Internal Server Error: /
+INFO 2024-04-06 23:29:38,921 admin Models registered successfully in admin.
+INFO 2024-04-06 23:29:39,048 admin Models registered successfully in admin.
+INFO 2024-04-06 23:29:39,049 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:29:39,156 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:29:39,157 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:29:40,703 log Internal Server Error: /
+ERROR 2024-04-06 23:29:40,704 basehttp "GET / HTTP/1.1" 500 0
+ERROR 2024-04-06 23:29:42,353 log Internal Server Error: /
+ERROR 2024-04-06 23:29:42,354 basehttp "GET / HTTP/1.1" 500 0
+ERROR 2024-04-06 23:29:44,597 log Internal Server Error: /
+ERROR 2024-04-06 23:29:44,598 basehttp "GET / HTTP/1.1" 500 0
+INFO 2024-04-06 23:29:49,628 admin Models registered successfully in admin.
+INFO 2024-04-06 23:30:19,936 admin Models registered successfully in admin.
+INFO 2024-04-06 23:30:19,954 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:30:19,955 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:30:19,959 log Internal Server Error: /
+ERROR 2024-04-06 23:30:58,802 log Internal Server Error: /
+INFO 2024-04-06 23:31:12,858 admin Models registered successfully in admin.
+INFO 2024-04-06 23:31:47,189 admin Models registered successfully in admin.
+INFO 2024-04-06 23:31:47,205 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:31:47,207 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:31:47,210 log Internal Server Error: /
+INFO 2024-04-06 23:33:51,297 admin Models registered successfully in admin.
+INFO 2024-04-06 23:34:01,434 admin Models registered successfully in admin.
+INFO 2024-04-06 23:34:01,559 admin Models registered successfully in admin.
+INFO 2024-04-06 23:34:01,561 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:34:01,669 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:34:01,670 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:34:16,658 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:34:16,661 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:34:16,673 log Internal Server Error: /
+ERROR 2024-04-06 23:34:32,829 log Internal Server Error: /
+1242
+WARNING 2024-04-06 23:34:20,447 basehttp "GET /static/css/style.css HTTP/1.1" 404 1798
+WARNING 2024-04-06 23:34:20,447 basehttp "GET /static/js/main.js HTTP/1.1" 404 1789
+WARNING 2024-04-06 23:34:26,057 log Not Found: /api/books/
+WARNING 2024-04-06 23:34:26,058 basehttp "GET /api/books/?format=api HTTP/1.1" 404 2236
+INFO 2024-04-06 23:35:03,712 admin Models registered successfully in admin.
+INFO 2024-04-06 23:36:21,482 admin Models registered successfully in admin.
+INFO 2024-04-06 23:36:21,606 admin Models registered successfully in admin.
+INFO 2024-04-06 23:36:21,608 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:36:21,677 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:36:21,677 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:36:57,523 admin Models registered successfully in admin.
+INFO 2024-04-06 23:37:02,323 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:37:02,325 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:37:02,341 log Internal Server Error: /
+ERROR 2024-04-06 23:37:03,544 log Internal Server Error: /
+INFO 2024-04-06 23:37:06,464 basehttp "GET / HTTP/1.1" 200 1242
+WARNING 2024-04-06 23:37:06,488 basehttp "GET /static/js/main.js HTTP/1.1" 404 1789
+WARNING 2024-04-06 23:37:06,489 basehttp "GET /static/css/style.css HTTP/1.1" 404 1798
+INFO 2024-04-06 23:37:34,768 admin Models registered successfully in admin.
+INFO 2024-04-06 23:37:40,570 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:37:40,572 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:37:40,580 log Internal Server Error: /
+ERROR 2024-04-06 23:37:42,019 log Internal Server Error: /
+INFO 2024-04-06 23:38:13,069 admin Models registered successfully in admin.
+INFO 2024-04-06 23:39:26,935 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 23:39:36,758 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:39:36,760 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:39:36,768 log Internal Server Error: /
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:39:38,634 basehttp "GET / HTTP/1.1" 200 1242
+WARNING 2024-04-06 23:39:38,657 basehttp "GET /static/js/main.js HTTP/1.1" 404 1789
+WARNING 2024-04-06 23:39:38,658 basehttp "GET /static/css/style.css HTTP/1.1" 404 1798
+INFO 2024-04-06 23:39:55,356 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 23:39:55,549 admin Models registered successfully in admin.
+INFO 2024-04-06 23:39:55,551 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:39:55,625 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:39:55,626 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:39:56,710 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 23:39:56,880 admin Models registered successfully in admin.
+INFO 2024-04-06 23:39:56,881 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:39:56,949 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:39:56,950 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:40:07,611 admin Models registered successfully in admin.
+INFO 2024-04-06 23:41:19,420 autoreload /Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/API_Service/settings.py changed, reloading.
+INFO 2024-04-06 23:41:19,607 admin Models registered successfully in admin.
+INFO 2024-04-06 23:41:19,608 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:41:19,677 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:41:19,677 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:41:24,260 admin Models registered successfully in admin.
+INFO 2024-04-06 23:41:24,385 admin Models registered successfully in admin.
+INFO 2024-04-06 23:41:24,387 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:41:24,457 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:41:24,457 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:43:25,791 admin Models registered successfully in admin.
+INFO 2024-04-06 23:43:25,917 admin Models registered successfully in admin.
+INFO 2024-04-06 23:43:25,918 autoreload Watching for file changes with StatReloader
+INFO 2024-04-06 23:43:25,985 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:43:25,986 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/Users/sanks04/Desktop/gpt-pilot/workspace/API_Service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+INFO 2024-04-06 23:43:30,724 admin Models registered successfully in admin.
+INFO 2024-04-06 23:43:40,806 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:43:40,808 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:43:40,817 log Internal Server Error: /
+INFO 2024-04-06 23:44:12,044 admin Models registered successfully in admin.
+INFO 2024-04-06 23:44:12,060 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:44:12,061 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:44:12,067 log Internal Server Error: /
+INFO 2024-04-06 23:48:10,776 admin Models registered successfully in admin.
+INFO 2024-04-06 23:48:19,472 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:48:19,474 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:48:19,482 log Internal Server Error: /
+INFO 2024-04-06 23:48:50,043 admin Models registered successfully in admin.
+INFO 2024-04-06 23:48:50,059 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:48:50,061 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:48:50,067 log Internal Server Error: /
+INFO 2024-04-06 23:51:31,824 admin Models registered successfully in admin.
+INFO 2024-04-06 23:51:38,292 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:51:38,294 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:51:38,302 log Internal Server Error: /
+INFO 2024-04-06 23:52:09,123 admin Models registered successfully in admin.
+INFO 2024-04-06 23:52:09,140 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:52:09,141 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:52:09,147 log Internal Server Error: /
+INFO 2024-04-06 23:52:45,874 admin Models registered successfully in admin.
+INFO 2024-04-06 23:53:19,142 admin Models registered successfully in admin.
+INFO 2024-04-06 23:53:19,159 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:53:19,160 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:53:19,167 log Internal Server Error: /
+INFO 2024-04-06 23:54:40,043 admin Models registered successfully in admin.
+INFO 2024-04-06 23:54:42,560 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:54:42,564 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:54:42,575 log Internal Server Error: /
+ERROR 2024-04-06 23:54:44,458 log Internal Server Error: /
+INFO 2024-04-06 23:55:15,282 admin Models registered successfully in admin.
+INFO 2024-04-06 23:58:01,729 admin Models registered successfully in admin.
+INFO 2024-04-06 23:58:42,040 admin Models registered successfully in admin.
+INFO 2024-04-06 23:58:42,058 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:58:42,059 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:58:42,069 log Internal Server Error: /
+INFO 2024-04-06 23:59:15,956 admin Models registered successfully in admin.
+INFO 2024-04-06 23:59:48,234 admin Models registered successfully in admin.
+INFO 2024-04-06 23:59:48,252 throttles Throttle classes ReadRateThrottle and WriteRateThrottle loaded successfully.
+ERROR 2024-04-06 23:59:48,253 urls Error configuring URL patterns for library app: module 'library.api_views' has no attribute 'GenreList'
+Traceback (most recent call last):
+  File "/api_service/library/urls.py", line 21, in <module>
+    path('genres/', api_views.GenreList.as_view(), name='genre-list'),
+AttributeError: module 'library.api_views' has no attribute 'GenreList'
+ERROR 2024-04-06 23:59:48,263 log Internal Server Error: /

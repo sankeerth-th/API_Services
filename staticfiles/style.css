@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#book-form > input, button {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#books-list {
+    margin-top: 20px;
+}

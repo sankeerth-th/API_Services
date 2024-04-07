@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book API Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Books</h1>
+    <div id="book-form">
+        <input type="text" id="title" placeholder="Title">
+        <input type="number" id="publication_year" placeholder="Publication Year">
+        <input type="text" id="author" placeholder="Author ID">
+        <input type="text" id="genre" placeholder="Genre ID (comma separated)">
+        <button onclick="createBook()">Add Book</button>
+    </div>
+    <div id="books-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
